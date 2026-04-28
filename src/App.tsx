@@ -4,6 +4,7 @@ import { TransactionForm } from './components/TransactionForm';
 import { MonthlySummary } from './components/MonthlySummary';
 import { CategoryChart } from './components/CategoryChart';
 import { TransactionList } from './components/TransactionList';
+import { StarField } from './components/StarField';
 import './App.css';
 
 export default function App() {
@@ -15,8 +16,10 @@ export default function App() {
 
   return (
     <div className="app">
+      <StarField />
       <header className="app-header">
         <h1>Savvo</h1>
+        <span className="header-sub">AI-powered finance</span>
       </header>
       <main className="app-main">
         <aside className="sidebar">
