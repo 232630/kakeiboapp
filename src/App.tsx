@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>家計簿</h1>
+        <h1>Savvo</h1>
       </header>
       <main className="app-main">
         <aside className="sidebar">
